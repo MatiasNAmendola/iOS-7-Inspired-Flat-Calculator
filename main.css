@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('http://www.dita.es/_files/_style/HelveticaNeue-UltraLight.woff')
+}
+
+body { 
+	font-family: 'MyWebFont';
+	background-color:#000000;
+	color:#fff;
+	width:1200px;
+	margin:0px auto;
+	-webkit-font-smoothing: antialiased;
+	font-size: 32px;
+}
+
+
+input {
+		font-family: 'MyWebFont';
+		font-size: 32px;
+		font-weight: bold;
+		color: #000000;
+		background: #dbdcde;
+		height:75px;
+		width:75px;
+		border:0px;
+}
+
+input:hover {
+	background: #979797;
+}
+
+
+input#res {
+	font-family: 'MyWebFont';
+	background-color:#000000;
+	height:75px;
+	color:#fff;
+	text-align:right;
+	width:320px;
+	font-size: 50px;
+	border:0px;
+}
+
+
+
+input#teil {
+	font-family: 'MyWebFont';
+	background-color:#f78f12;
+	color:#fff;
+	height:75px;
+	width:75px;
+	font-size: 32px;
+	border:0px;
+}
+
+input#teil:hover {
+	background: #e67e00;
+}
